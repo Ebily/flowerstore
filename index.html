@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#243c35">
+  <meta name="description" content="FLORA — زهور مصممة للحظات التي تستحق أن تُحفظ.">
+  <title>FLORA — Flowers for moments that matter</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalog.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">تخطّي إلى المحتوى</a>
+  <div class="announcement"><span class="announcement-flower" aria-hidden="true">✳</span><span data-i18n="announcement">كل باقة تحمل حكاية، ونحن ننسّق بدايتها</span><span class="announcement-flower" aria-hidden="true">✳</span></div>
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <button class="menu-toggle icon-button" id="menuToggle" aria-label="فتح القائمة" aria-controls="mainNav" aria-expanded="false" type="button"><span></span><span></span></button>
+      <a class="wordmark" href="#top" aria-label="FLORA home"><span class="wordmark-flower" aria-hidden="true">✳</span><span>FLORA<small>FLOWER ATELIER</small></span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#top" class="nav-active" data-i18n="navHome">الرئيسية</a>
+        <a href="store.html#shop" data-i18n="navFlowers">الزهور</a>
+        <a href="store.html#suggestions" data-i18n="navOccasions">المناسبات</a>
+        <a href="store.html#customize" data-i18n="navStory">تخصيص باقة</a>
+      </nav>
+      <div class="header-tools">
+        <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch to English"><span id="langLabel">EN</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-3 3-3 15 0 18m0-18c3 3 3 15 0 18"/></svg></button>
+        <button class="bag-button" id="bagOpen" type="button" aria-label="سلة المشتريات"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 8h15l-1 12h-13zM9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="bagCount">0</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="heroTitle">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">فنّ الورد، على مهل</span></p>
+        <h1 id="heroTitle" data-i18n-html="heroTitle">تفاصيل صغيرة،<br><em>مشاعر كبيرة.</em></h1>
+        <p class="hero-description" data-i18n="heroDescription">زهور تُختار بحب، وتُنسّق لتقول ما تعجز عنه الكلمات. اكتشفي باقاتنا المصممة لكل لحظة تستحق التذكر.</p>
+        <div class="hero-actions"><a class="button button-primary" href="store.html#shop"><span data-i18n="shopNow">اكتشفي الباقات</span><span class="button-arrow" aria-hidden="true">↗</span></a><a class="text-link" href="#story"><span data-i18n="ourStory">تعرفي علينا</span><span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-seal" aria-hidden="true">✿</span><span data-i18n="heroNote">ورد يُنسّق بعناية، ويصل محمّلًا بالمشاعر.</span></div>
+      </div>
+      <div class="hero-art reveal" id="flowerStage" aria-label="وردة متحركة ثلاثية الأبعاد" role="img">
+        <div class="art-orbit orbit-one" aria-hidden="true"></div><div class="art-orbit orbit-two" aria-hidden="true"></div>
+        <span class="hero-art-label art-label-top" aria-hidden="true">F / 01 <span>THE ART OF FLOWERS</span></span>
+        <div class="flower-scene" aria-hidden="true">
+          <div class="flower-stem"></div><div class="flower-leaf leaf-left"></div><div class="flower-leaf leaf-right"></div>
+          <div class="flower-head">
+            <div class="petal-ring ring-back"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div>
+            <div class="petal-ring ring-middle"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div>
+            <div class="petal-ring ring-front"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i></div>
+            <div class="flower-center"></div>
+          </div>
+        </div>
+        <span class="hero-art-label art-label-bottom" aria-hidden="true">EST. WITH LOVE <span>TRIPOLI · LIBYA</span></span>
+        <div class="art-spark spark-one" aria-hidden="true">✦</div><div class="art-spark spark-two" aria-hidden="true">✦</div>
+      </div>
+      <a class="scroll-hint" href="#collection"><span data-i18n="scroll">اكتشفي المزيد</span><span class="scroll-line" aria-hidden="true"></span></a>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>FLOWERS FOR EVERY FEELING <b>✳</b> MADE WITH LOVE <b>✳</b> A LITTLE BEAUTY, EVERY DAY <b>✳</b></span><span>FLOWERS FOR EVERY FEELING <b>✳</b> MADE WITH LOVE <b>✳</b> A LITTLE BEAUTY, EVERY DAY <b>✳</b></span></div></div>
+    <section class="collection-section shell section-space" id="collection" aria-labelledby="collectionTitle">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="collectionEyebrow">مختارة لقلبك</span></p><h2 id="collectionTitle" data-i18n-html="collectionTitle">زهور تروي <em>حكايتك</em></h2></div><p data-i18n="collectionIntro">من لفتة بسيطة إلى مناسبة كبيرة؛ لكل شعور باقة تشبهه.</p></div>
+      <div class="filter-row" role="group" aria-label="تصفية الباقات" id="filters"><button class="filter active" type="button" data-filter="all" data-i18n="filterAll" aria-pressed="true">كل الزهور</button><button class="filter" type="button" data-filter="bouquets" data-i18n="filterBouquets" aria-pressed="false">باقات</button><button class="filter" type="button" data-filter="roses" data-i18n="filterRoses" aria-pressed="false">ورد طبيعي</button><button class="filter" type="button" data-filter="gifts" data-i18n="filterGifts" aria-pressed="false">هدايا ونباتات</button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="collection-footnote" data-i18n="collectionNote">اختاري ما يشبه اللحظة، واتركي للباقي أن يزهر.</p>
+    </section>
+    <section class="moments-section" id="moments" aria-labelledby="momentsTitle"><div class="shell moments-layout"><div class="moments-copy reveal"><p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span><span data-i18n="momentsEyebrow">ليس مجرد ورد</span></p><h2 id="momentsTitle" data-i18n-html="momentsTitle">لكل مناسبة،<br><em>لغة من الزهور.</em></h2><p data-i18n="momentsText">للبدايات، للامتنان، للاحتفال، أو لمجرد أن اليوم يستحق شيئًا جميلًا.</p><a class="button button-outline" href="store.html#suggestions"><span data-i18n="exploreFlowers">اكتشفي الزهور</span><span class="button-arrow" aria-hidden="true">↗</span></a></div><div class="moments-cards"><article class="moment-card moment-one reveal"><span>01 / 03</span><div class="moment-flower">✿</div><h3 data-i18n="momentOne">لحظات الحب</h3><p data-i18n="momentOneSub">حين تكون الزهور أقرب للكلام</p></article><article class="moment-card moment-two reveal"><span>02 / 03</span><div class="moment-flower">✺</div><h3 data-i18n="momentTwo">لحظات الاحتفال</h3><p data-i18n="momentTwoSub">فرح يستحق أن يُهدى</p></article><article class="moment-card moment-three reveal"><span>03 / 03</span><div class="moment-flower">✼</div><h3 data-i18n="momentThree">لحظات الامتنان</h3><p data-i18n="momentThreeSub">شكر صغير، أثره كبير</p></article></div></div></section>
+    <section class="story-section shell section-space" id="story"><div class="story-icon reveal" aria-hidden="true"><span>F</span><small>FLOWER ATELIER</small></div><div class="story-content reveal"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="storyEyebrow">من قلب فلورا</span></p><h2 data-i18n-html="storyTitle">الجمال في <em>التفاصيل.</em></h2><p data-i18n="storyText">نؤمن أن الورد أكثر من هدية. هو طريقة رقيقة للاحتفاء بمن نحب، وفرصة لجعل الأيام العادية استثنائية. لهذا نختار كل تنسيق بعينٍ تحب الجمال وقلبٍ يعرف قيمته.</p><a class="text-link" href="store.html#shop"><span data-i18n="storyLink">ابحثي عن باقتك</span><span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-top"><div><div class="footer-brand">FLORA<span>✳</span></div><p data-i18n="footerLine">لأن بعض المشاعر تستحق أن تُقال بالورد.</p></div><a href="#top" class="back-top"><span data-i18n="backTop">العودة للأعلى</span><span aria-hidden="true">↑</span></a></div><div class="shell footer-bottom"><span>© <span id="year"></span> FLORA FLOWER ATELIER</span><span data-i18n="footerLocation">صُنع بمحبة في طرابلس</span></div></footer>
+  <div class="drawer-scrim" id="drawerScrim" hidden></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-labelledby="bagTitle" aria-hidden="true" inert><div class="drawer-head"><div><p class="eyebrow" data-i18n="bagEyebrow">اختياراتك الجميلة</p><h2 id="bagTitle" data-i18n="bagTitle">سلتك</h2></div><button class="drawer-close" id="bagClose" aria-label="إغلاق السلة" type="button">×</button></div><div class="drawer-items" id="bagItems"></div><div class="drawer-bottom"><div class="drawer-total"><span data-i18n="subtotal">المجموع</span><strong id="bagTotal">0</strong></div><p data-i18n="bagPreview">الطلب والدفع سيكونان متاحين عند ربط المتجر بالنظام.</p><a class="button button-primary drawer-action" href="store.html#checkout" data-i18n="checkoutSoon">الانتقال إلى إتمام الطلب</a></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

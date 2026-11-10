@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#243c35">
+  <title>FLORA — The flower store</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="store.css">
+  <script src="catalog.js" defer></script><script src="store.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#storeMain" id="skipLink">تخطّي إلى المحتوى</a>
+  <div class="announcement"><span class="announcement-flower" aria-hidden="true">✳</span><span id="announcementText">كل باقة تحمل حكاية، ونحن ننسّق بدايتها</span><span class="announcement-flower" aria-hidden="true">✳</span></div>
+  <header class="site-header"><div class="header-inner shell store-header">
+    <button class="menu-toggle icon-button" id="menuToggle" aria-label="فتح القائمة" aria-controls="mainNav" aria-expanded="false" type="button"><span></span><span></span></button>
+    <a class="wordmark" href="index.html"><span class="wordmark-flower" aria-hidden="true">✳</span><span>FLORA<small>FLOWER ATELIER</small></span></a>
+    <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي"><a href="index.html" data-nav="home">الرئيسية</a><a href="#shop" data-nav="shop">الزهور</a><a href="#suggestions" data-nav="suggestions">اقتراحات لك</a><a href="#customize" data-nav="customize">صمّمي باقتك</a><a href="#orders" data-nav="orders">طلباتي</a></nav>
+    <div class="header-tools"><button class="lang-switch" id="langSwitch" type="button" aria-label="Switch to English"><span id="langLabel">EN</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-3 3-3 15 0 18m0-18c3 3 3 15 0 18"/></svg></button><a class="bag-button" href="#cart" id="bagLink" aria-label="سلة المشتريات"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 8h15l-1 12h-13zM9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="bagCount">0</span></a></div>
+  </div></header>
+  <main id="storeMain" tabindex="-1"><div id="storeView" class="shell store-view" aria-live="polite"></div></main>
+  <footer class="footer"><div class="shell footer-top"><div><div class="footer-brand">FLORA<span>✳</span></div><p id="footerLine">لأن بعض المشاعر تستحق أن تُقال بالورد.</p></div><a href="index.html" class="back-top"><span id="footerHome">العودة للرئيسية</span><span aria-hidden="true">↗</span></a></div><div class="shell footer-bottom"><span>© <span id="year"></span> FLORA FLOWER ATELIER</span><span id="footerLocation">صُنع بمحبة في طرابلس</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
